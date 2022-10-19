@@ -1,0 +1,3 @@
+﻿  4A.cpp
+C:\Users\Eric\source\repos\4A- Plymorphism\4A.cpp(93): error C4716: 'operator<<': must return a value
+C:\Users\Eric\source\repos\4A- Plymorphism\4A.cpp(101): error C4716: 'operator>>': must return a value

@@ -1,0 +1,26 @@
+﻿  list-a.cpp
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(84,9): error C2676: binary '!=': 'SLinkedList<std::string>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(107): message : see reference to function template instantiation 'void concat<T>(SLinkedList<T> &,SLinkedList<T> &,SLinkedList<T> &)' being compiled
+          with
+          [
+              T=std::string
+          ]
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(84,23): error C2676: binary '!=': 'SLinkedList<std::string>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(85,1): error C2819: type 'SLinkedList<std::string>' does not have an overloaded member 'operator ->'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(93): message : see declaration of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(85,1): message : did you intend to use '.' instead?
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(85,11): error C2039: 'next': is not a member of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(93): message : see declaration of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(86,1): error C2819: type 'SLinkedList<std::string>' does not have an overloaded member 'operator ->'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(93): message : see declaration of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(86,1): message : did you intend to use '.' instead?
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(86,8): error C2039: 'next': is not a member of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(93): message : see declaration of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(88,1): error C2819: type 'SLinkedList<std::string>' does not have an overloaded member 'operator ->'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(93): message : see declaration of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(88,1): message : did you intend to use '.' instead?
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(88,15): error C2039: 'next': is not a member of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(93): message : see declaration of 'SLinkedList<std::string>'
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(88,4): error C2672: 'concat': no matching overloaded function found
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(88,1): error C2780: 'void concat(SLinkedList<T> &,SLinkedList<T> &,SLinkedList<T> &)': expects 3 arguments - 2 provided
+C:\Users\Eric\source\repos\2A-list\list-a.cpp(12): message : see declaration of 'concat'
